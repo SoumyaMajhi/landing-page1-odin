@@ -8,11 +8,11 @@ font-family: 'Lobster', cursive;
 font-family: 'Pacifico', cursive;
  */
 
-h1{
+.title{
     font-family: 'Pacifico', cursive;
 }
 body{
-    font-family: 'Pacifico', cursive;
+    /* font-family: 'Autour One', cursive; */
     margin: 0;
     min-height: 100vh;
 }
