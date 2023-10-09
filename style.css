@@ -11,6 +11,10 @@ font-family: 'Pacifico', cursive;
 
 .title{
     font-family: 'Pacifico', cursive;
+    font-size: 30px;
+    font-weight: bold;
+    text-shadow: 4px 4px 8px grey;
+
 }
 body{
     /* font-family: 'Autour One', cursive; */
@@ -22,6 +26,10 @@ ul{
     margin: 0;
     padding: 0;
     display: flex;
+    gap: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+
 }
 a{
     text-decoration: none;
@@ -32,7 +40,7 @@ a{
     display: flex;
     flex-direction: column;
     color: #eee;
-    padding: 2% 15%;
+    padding: 1% 15%;
 }
 .header{
     display: flex;
@@ -43,17 +51,44 @@ a{
     display: flex;
     margin: 10% 0;
     justify-content: space-between;
+    align-items: center;
     gap: 20px;
 }
 .herotitle{
     font-family: 'Lobster', cursive;
     font-size: 48px;
     margin-bottom: 20px;
+    text-shadow: 4px 4px 8px grey;
 }
 .herodesc{
     font-family: 'Montserrat', sans-serif;
+    /* font-family: 'Pacifico', cursive; */
     font-size: 18px;
+    text-shadow: 2px 2px 4px rgb(0, 0, 0);
 }
+.herotext{
+    width: 400px;
+}
+.heroimg img{
+    width: 100%;
+    border-radius: 10px;
+    /* width: 300px; */
+    box-shadow: 0 4px 8px 0 rgb(0, 0, 0);
+}
+.signup{
+    margin-top: 20px;
+    border: 2px solid #eee;
+    background-color: rgb(127, 146, 255);
+    border-radius: 10px;
+    width: 100px;
+    height: 40px;
+    flex-shrink: 0;
+    padding: 0;
+    color: white;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+}
+
 .section2{
     display: flex;
     flex-direction: column;
@@ -65,6 +100,8 @@ a{
     font-size: 36px;
     font-weight: bold;
     font-family: 'Lobster', cursive;
+    text-shadow: 2px 2px 4px grey;
+
 
 }
 .boxes{
@@ -75,14 +112,32 @@ a{
 .items{
     width: 200px;
     font-size: 13px;
+    padding: 16px;
     font-family: 'Montserrat', sans-serif;
+    box-shadow: 0 4px 8px 0 grey;
+    border-radius: 10px;
+    text-align: center;
 
 }
-.box{
+/* .box{
     width: 200px;
-    height: 200px;
+    height: max-content;
     border: 2px solid rgb(17, 163, 231);
     border-radius: 7%;
+} */
+.section2 img{
+    width: 200px;
+    height: max-content;
+    border: 2px solid rgb(17, 163, 231);
+    border-radius: 7%;
+    box-shadow: 0 4px 8px 0 grey;
+
+}
+.boxname{
+    font-family: 'Pacifico', cursive;
+    font-size: 18px;
+    text-shadow: 2px 2px 4px grey;
+    margin: 5px 0;
 }
 .section3{
     background: rgb(196, 194, 194);
@@ -98,12 +153,16 @@ a{
     font-family: 'Dancing Script', cursive;
     /* font-family: 'Lobster', cursive; */
     /* font-family: 'Pacifico', cursive; */
+    text-shadow: 2px 2px 4px grey;
+
 }
 .author{
     text-align: end;
     font-family: 'Pacifico', cursive;
     font-size: 20px;
     margin-top: 10px;
+    text-shadow: 2px 2px 4px grey;
+
 }
 .section4 p{
     margin: 0;
@@ -120,6 +179,8 @@ a{
     align-items: center;
     color: white;
     gap: 10px;
+    text-shadow: 2px 2px 4px grey;
+
     
 }
 .bannersignup{
@@ -127,10 +188,11 @@ a{
     background-color: rgb(127, 146, 255);
     border-radius: 10px;
     width: 100px;
-    height: 30px;
+    height: 40px;
     flex-shrink: 0;
     padding: 0;
     color: white;
+    font-weight: bold;
     font-family: 'Montserrat', sans-serif;
 
     /* font-size: 18px; */
