@@ -1,10 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Autour+One&family=Dancing+Script&family=Lobster&family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Autour+One&family=Dancing+Script&family=Lobster&family=Montserrat&family=Pacifico&display=swap');
 
 
 /* 
 font-family: 'Autour One', cursive;
 font-family: 'Dancing Script', cursive;
 font-family: 'Lobster', cursive;
+font-family: 'Montserrat', sans-serif;
 font-family: 'Pacifico', cursive;
  */
 
@@ -27,7 +28,7 @@ a{
     color: #eee;
 }
 .section1{
-    background-color: blueviolet;
+    background-color: rgb(27, 42, 88);
     display: flex;
     flex-direction: column;
     color: #eee;
@@ -39,4 +40,103 @@ a{
 }
 .hero{
     display: flex;
+}
+.section2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+}
+.sec2head{
+    padding-bottom: 30px;
+    font-size: 36px;
+    font-weight: bold;
+    font-family: 'Lobster', cursive;
+
+}
+.boxes{
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+.items{
+    width: 200px;
+    font-size: 13px;
+    font-family: 'Montserrat', sans-serif;
+
+}
+.box{
+    width: 200px;
+    height: 200px;
+    border: 2px solid rgb(17, 163, 231);
+    border-radius: 7%;
+}
+.section3{
+    background: rgb(196, 194, 194);
+    display: flex;
+    flex-direction: column;
+    padding: 50px 25%;
+}
+.quote{
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    /* font-family: 'Autour One', cursive; */
+    font-family: 'Dancing Script', cursive;
+    /* font-family: 'Lobster', cursive; */
+    /* font-family: 'Pacifico', cursive; */
+}
+.author{
+    text-align: end;
+    font-family: 'Pacifico', cursive;
+    font-size: 20px;
+    margin-top: 10px;
+}
+.section4 p{
+    margin: 0;
+    padding: 0;
+}
+.banner{
+    display: flex;
+    justify-content: space-between;
+    margin: 5% 20%;
+    padding: 2.5% 5%;
+    background-color: rgb(127, 146, 255);
+    /* border: 5px solid black; */
+    border-radius: 15px;
+    align-items: center;
+    color: white;
+    gap: 10px;
+    
+}
+.bannersignup{
+    border: 2px solid #eee;
+    background-color: rgb(127, 146, 255);
+    border-radius: 10px;
+    width: 100px;
+    height: 30px;
+    flex-shrink: 0;
+    padding: 0;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+
+    /* font-size: 18px; */
+
+}
+.section4 .p1{
+    font-size: 24px;
+    font-family: 'Lobster', cursive;
+    margin-bottom: 5px;
+
+}
+.section4 .p2{
+    font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
+
+}
+.footer{
+    background-color: rgb(27, 42, 88);
+    color: #eee;
+    text-align: center;
+    padding: 20px 0;
 }
