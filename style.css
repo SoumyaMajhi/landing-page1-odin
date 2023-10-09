@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Autour+One&family=Dancing+Script&family=Lobster&family=Pacifico&display=swap');
+
+
+/* 
+font-family: 'Autour One', cursive;
+font-family: 'Dancing Script', cursive;
+font-family: 'Lobster', cursive;
+font-family: 'Pacifico', cursive;
+ */
+
+h1{
+    font-family: 'Pacifico', cursive;
+}
+body{
+    font-family: 'Pacifico', cursive;
+    margin: 0;
+    min-height: 100vh;
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+a{
+    text-decoration: none;
+    color: #eee;
+}
+.section1{
+    background-color: blueviolet;
+    display: flex;
+    flex-direction: column;
+    color: #eee;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.hero{
+    display: flex;
+}
